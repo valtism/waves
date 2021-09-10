@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: #001220;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.waves {
+  aspect-ratio: 900/600;
+  width: 120%;
+}
